@@ -1,0 +1,70 @@
+/**********
+Universal Styles
+**********/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	width: 70%;
+	margin: 0 auto;	
+}
+
+/**********
+Body -> Main Styles
+**********/
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.status {
+	margin: auto 0;
+}
+
+.streamers {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+}
+
+.streamers span {
+	width: 50%;
+	flex-wrap: wrap;
+}
+
+.streamers > div {
+	display: flex;
+	flex-direction: row;
+	background: tomato;
+}
+
+.streamers > div {
+	background: tomato;
+	color: #fff;
+	margin: 0 0 10px;
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 33px;
+	cursor: pointer;
+}
+
+.streamer {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.image {
+	width: 100px; 
+	height: 100px;
+	border-radius: 33px;
+}
+
+
+
